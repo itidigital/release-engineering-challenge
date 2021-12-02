@@ -18,31 +18,26 @@ Temos neste repositório uma aplicação em Kotlin simples com uma API REST que 
 
   
  
-* Crie uma pipeline no gitlab com as seguintes etapas: 
+Crie uma pipeline no Gitlab com as seguintes etapas: 
   - build 
   - teste1 
   - deploy2 
 
-* 1 A etapa de testes consiste somente em execução de ferramentas de análise de código. Não é requerido a escrita de testes unitário, integração ou e2e para a aplicação. 
+A etapa de testes consiste somente em execução de ferramentas de análise de código. Não é requerido a escrita de testes unitário, integração ou e2e para a aplicação. 
 
-* 2 Deverá ser realizado em uma plataforma PaaS, ou em uma EC2 ou EKS na AWS, mas em todos os casos deverá o endpoint ficar de acesso público (DNS não é necessário). 
+O deploy deverá ser realizado em uma plataforma PaaS ou em uma EC2 ou EKS na AWS. Em todos os casos deverá o endpoint ficar de acesso público (DNS não é necessário). 
 
-Requisitos não funcionais serão avaliados como: qualidade, segurança e observabilidade. 
-As ferramentas de build, teste e deploy são de livre escolha, mas deverão ser defendidas durante o review do teste. 
-Para mitigar eventuais custos utilize os planos free-tier das plataformas escolhidas. 
+
+> As ferramentas de build, teste e deploy são de livre escolha, mas deverão ser defendidas durante o review do teste. 
 
   
-
 ## Algumas dicas que podem ser importantes: 
 
-  
-
+* Para mitigar eventuais custos utilize os planos free-tier das plataformas escolhidas. 
+* Requisitos não-funcionais serão avaliados como: qualidade, segurança e observabilidade. 
 * Invista tempo em escrever uma documentação de qualidade 
-
 * Empregue quaisquer boas práticas que achar conveniente  
-
 * Organize seu código 
-
 * Seja eficiente e simples 
 
   
@@ -51,7 +46,7 @@ Para mitigar eventuais custos utilize os planos free-tier das plataformas escolh
 
   
 
-Clone esse repositório e realize todas as modificações, depois que terminar, compacte o repositorio e nos envie. Mantenha o .git no arquivo compactado, queremos analisar os seus commits. 
+Clone esse repositório e realize todas as modificações. Depois que terminar, compacte o repositorio e nos envie. Mantenha o .git no arquivo compactado, queremos analisar os seus commits. 
 
   
 
